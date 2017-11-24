@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>listsalesinvoice</display-name>
+    <servlet-name>listsalesinvoice</servlet-name>
+    <servlet-class>demo.listsalesinvoice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listsalesinvoice</servlet-name>
+    <url-pattern>/listsalesinvoice</url-pattern>
+  </servlet-mapping>
 </web-app>
